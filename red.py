@@ -1,7 +1,7 @@
 from gpiozero import LED
 from time import sleep
 
-red = LED(17)
+red = LED(27)
 red.on()
 sleep(1)
 for i in range(20):
